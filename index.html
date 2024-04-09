@@ -10,27 +10,23 @@
     <link href="https://fonts.googleapis.com/css2?family=Anta&display=swap" rel="stylesheet">
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
-    <title>AI Poem Generator</title>
+    <title>AI Anonymous Poet's Society</title>
 </head>
 
 <body>
     <div class="container">
-        <header>Welcome to an AI Poem Generator</header>
+        <header>Welcome to AI Anonymous Poet's Society</header>
         <main>
             <h1>TAKING AI TO NEW DEPTHS <img src="src/stars.gif" height="100px" width="100px" /></h1>
-
-            <form id="poem-topic-form">
-                <input type="text" placeholder="enter topic of desired poem" required autocomplete="off"
-                    class="instructions" id="input-instructions" />
-                <input type="submit" class="submit-button" />
-            </form>
-            <div class="poem" id="poem"></div>
-
-
-
-
-
-
+            <div class="form-container">
+                <form id="poem-topic-form">
+                    <input type="text" placeholder="Enter any topic to display poem..." required autocomplete="off"
+                        class="instructions" id="input-instructions" />
+                    <input type="submit" class="submit-button" />
+                </form>
+                <div class="example"> I.E. Love, Feminism, Galaxies, Kittens etc...</div>
+            </div>
+            <div class="poem hidden" id="poem"></div>
         </main>
         <footer> This AI project was coded and designed by <a href="https://github.com/RoxyKeatings"
                 target="_blank">Roxanne

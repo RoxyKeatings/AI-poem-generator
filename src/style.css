@@ -30,7 +30,6 @@ h1 {
 }
 form {
   display: flex;
-  padding: 30px;
 }
 .instructions {
   padding: 16px;
@@ -48,13 +47,46 @@ form {
   border: 5px solid rgb(219, 230, 175);
   border-radius: 15px;
 }
-.poem {
+.submit-button:hover {
+  color: rgb(89, 72, 79);
   background-color: rgb(219, 230, 175);
-  padding: 40px;
+  transition: 1s;
+  cursor: pointer;
+}
+.form-container {
+  margin-bottom: 0;
+  padding: 30px;
+  background-color: rgb(219, 230, 175);
   line-height: 24px;
   border: 5px solid rgb(89, 72, 79);
   border-radius: 15px;
   font-size: 20px;
+}
+.example {
+  line-height: 1.5;
+  margin-top: 10px;
+  font-size: 12px;
+  font-weight: 100;
+}
+.poem {
+  margin: 10px auto;
+  padding: 30px;
+  background-color: rgb(219, 230, 175);
+  line-height: 24px;
+  border: 5px solid rgb(89, 72, 79);
+  border-radius: 15px;
+  font-size: 20px;
+}
+.hidden {
+  display: none;
+}
+.generating {
+  animation: blink-animation 1s steps(5, start) infinite;
+}
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
 }
 footer {
   padding: 30px;
