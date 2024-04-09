@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anta&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>AI Poem Generator</title>
 </head>
 
@@ -17,14 +18,12 @@
         <main>
             <h1>TAKING AI TO NEW DEPTHS <img src="src/stars.gif" height="100px" width="100px" /></h1>
 
-            <form>
+            <form id="poem-topic-form">
                 <input type="text" placeholder="enter topic of desired poem" required autocomplete="off"
                     class="instructions" />
                 <input type="submit" class="submit-button" />
             </form>
-            <div class="poem">
-                This is where the context of the generated AI poem will be📖
-            </div>
+            <div class="poem" id="poem"></div>
 
 
 
