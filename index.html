@@ -5,33 +5,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anta&display=swap" rel="stylesheet">
     <title>AI Poem Generator</title>
 </head>
 
 <body>
-    <header>Welcome to my poem Generator</header>
-    <main>
-        <h1>Let's take AI to new depths</h1>
-        <form>
-            <input type="text" placeholder="enter topic of desired poem" autofocus required autocomplete="off" />
-            <input type="submit" />
-        </form>
-        <div>
-            This is where the context of the generated AI poem will be📖
-        </div>
+    <div class="container">
+        <header>Welcome to an AI Poem Generator</header>
+        <main>
+            <h1>TAKING AI TO NEW DEPTHS <img src="src/stars.gif" height="100px" width="100px" /></h1>
+
+            <form>
+                <input type="text" placeholder="enter topic of desired poem" required autocomplete="off"
+                    class="instructions" />
+                <input type="submit" class="submit-button" />
+            </form>
+            <div class="poem">
+                This is where the context of the generated AI poem will be📖
+            </div>
 
 
 
 
 
 
-    </main>
-    <footer> This AI project was coded and designed by <a href="https://github.com/RoxyKeatings" target="_blank">Roxanne
-            Keatings</a>,this is
-        open-sourced on <a href="https://github.com/RoxyKeatings/AI-poem-generator" target="_blank">GitHub</a> and
-        hosted
-        on <a href="https://euphonious-squirrel-89b9e7.netlify.app/" target="_blank">Netlify</a>
-    </footer>
+        </main>
+        <footer> This AI project was coded and designed by <a href="https://github.com/RoxyKeatings"
+                target="_blank">Roxanne
+                Keatings</a>,this is
+            open-sourced on <a href="https://github.com/RoxyKeatings/AI-poem-generator" target="_blank">GitHub</a> and
+            hosted
+            on <a href="https://euphonious-squirrel-89b9e7.netlify.app/" target="_blank">Netlify</a>
+        </footer>
+    </div>
     <script src="src/index.js"></script>
 </body>
 

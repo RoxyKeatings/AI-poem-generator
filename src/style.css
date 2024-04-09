@@ -1,0 +1,62 @@
+body {
+  background: linear-gradient(
+    102.2deg,
+    rgb(109, 118, 150) 7.1%,
+    rgb(89, 72, 79) 14.7%,
+    rgb(69, 92, 79) 28%,
+    rgb(204, 85, 67) 43.4%,
+    rgb(237, 181, 121) 60.2%,
+    rgb(219, 230, 175) 76.8%
+  );
+  background-repeat: no-repeat;
+  color: black;
+  font-family: "Anta", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container {
+  margin: 120px auto;
+  max-width: 600px;
+}
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+h1 {
+  text-align: center;
+  line-height: 1.5;
+  font-size: 40px;
+}
+form {
+  display: flex;
+  padding: 30px;
+}
+.instructions {
+  padding: 16px;
+  background-color: rgba(219, 230, 175);
+  border: 5px solid rgb(89, 72, 79);
+  border-radius: 15px;
+  display: flex;
+  line-height: 20px;
+  width: 80%;
+}
+.submit-button {
+  margin-left: 10px;
+  padding: 15px;
+  background-color: rgb(89, 72, 79);
+  border: 5px solid rgb(219, 230, 175);
+  border-radius: 15px;
+}
+.poem {
+  padding: 40px;
+  line-height: 24px;
+  border: 5px solid rgb(219, 230, 175);
+  border-radius: 15px;
+  font-size: 20px;
+}
+footer {
+  padding: 30px;
+  text-align: center;
+  font-size: 16px;
+}
