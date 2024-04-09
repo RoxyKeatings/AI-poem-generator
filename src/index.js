@@ -1,7 +1,7 @@
 function generatePoem(event) {
   event.preventDefault();
   new Typewriter("#poem", {
-    strings: ["this is where the poems will be seen by users "],
+    strings: "Nature's first green is gold",
     autoStart: true,
     pauseFor: 30000,
     delay: 30,
